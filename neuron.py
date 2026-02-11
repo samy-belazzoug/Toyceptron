@@ -25,13 +25,19 @@ class Neuron:
         '''
         Docstring for forward
         
+        The output formula of a hidden neuron will always be in the form :
+        Y = W · X + B
+
         :param entry: Description
         :type entry: list
         :return: Description
         :rtype: float
         '''
         output = 0
+        #scalar product
         for i in range(len(entry)):
             output += (self.weights[i]) * (entry[i])
+        
+        #final output
         return output + self.bias
         
