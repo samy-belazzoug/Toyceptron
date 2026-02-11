@@ -11,7 +11,7 @@ def act_sigmoid(x):
 
 
 # --- Input ---
-x = [1.0, 2.0, 4.0]
+x = [1.0, 2.0, 4.0] 
 print("Input:", x)
 
 # --- Test neurone individuel ---

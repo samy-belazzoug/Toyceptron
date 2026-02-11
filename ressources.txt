@@ -1,0 +1,5 @@
+https://fr.eitca.org/artificial-intelligence/eitc-ai-gcml-google-cloud-machine-learning/introduction/what-is-machine-learning/explain-weights-and-biases/
+--> Weight and bias of a neuron
+
+https://apprendre-le-deep-learning.com/coder-reseau-de-neurones-from-scratch/
+--> Intersting formulas
