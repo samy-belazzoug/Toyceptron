@@ -21,7 +21,7 @@ class Neuron:
         self.weights = weights
         self.bias = bias
     
-    def forward(self,entry:list=[])->float:
+    def forward(self, entry:list=[])->float:
         '''
         Docstring for forward
         
@@ -35,9 +35,8 @@ class Neuron:
         '''
         output = 0
         #scalar product
-        for i in range(len(entry)):
+        for i in range(len(self.weights)):
             output += (self.weights[i]) * (entry[i])
         
         #final output
         return output + self.bias
-        
