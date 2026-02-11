@@ -7,7 +7,7 @@ class Neuron:
         -Calculate its output from an input vector
     '''
 
-    def __init__(self, weights:list=None , bias:float=None):
+    def __init__(self, weights:list, bias:float):
         '''
         Docstring for __init__
         
@@ -30,6 +30,8 @@ class Neuron:
         :return: Description
         :rtype: float
         '''
-        f = None
-        return f
+        output = 0
+        for i in range(len(entry)):
+            output += (self.weights[i]) * (entry[i])
+        return output + self.bias
         
