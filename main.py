@@ -56,7 +56,7 @@ net.add(
         [0.2, -0.1, 0.4],
         [-0.4, 0.3, 0.1],
     ],
-    biases=[0.0, 0.1],
+    biases=[0.0, 0.1]
 )
 
 # 2. La deuxième couche est cachée aussi
@@ -90,3 +90,4 @@ for i, layer in enumerate(net.layers):
     print(f"\nCouche {i + 1} (valeurs brutes):", raw)
     print(f"Couche {i + 1} (valeurs activées):", activated)
     inputs = activated
+    

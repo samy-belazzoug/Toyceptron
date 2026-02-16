@@ -1,10 +1,16 @@
 from neuron import Neuron
 
 class Layer:
+    """
+    Docstring for Layer
+
+    Kinda similar to Neuron.
+    But now, we are working with vectors of neurons.
+    """
     def __init__(self, weights_list:list, biases_list:list):
         self.weights_list = weights_list
         self.biases_list = biases_list
-    
+
     def forward(self, entry:list=[])->list:
         output = []
         for i in range(len(self.weights_list)):
